@@ -1,7 +1,7 @@
 textAngular v1.5.16
 ===========
 
-[![Build Status](https://travis-ci.org/fraywing/textAngular.png?branch=master)](https://travis-ci.org/fraywing/textAngular) [![Coverage Status](https://coveralls.io/repos/fraywing/textAngular/badge.png)](https://coveralls.io/r/fraywing/textAngular)
+[![Build Status](https://travis-ci.org/chaddoy/textAngular.png?branch=master)](https://travis-ci.org/chaddoy/textAngular) [![Coverage Status](https://coveralls.io/repos/chaddoy/textAngular/badge.png)](https://coveralls.io/r/chaddoy/textAngular)
 
 
 Demo is available at: http://www.textangular.com (Or editable [Plunkr Demo](http://plnkr.co/edit/hz3x2f?p=preview))
@@ -80,7 +80,7 @@ Include script tag similar to the following: (For details on how this works see:
 
 **Via Github**
 
-Download the code from [https://github.com/fraywing/textAngular/releases/latest](https://github.com/fraywing/textAngular/releases/latest), unzip the files then add script tags similar to the following:
+Download the code from [https://github.com/chaddoy/textAngular/releases/latest](https://github.com/chaddoy/textAngular/releases/latest), unzip the files then add script tags similar to the following:
 ```html
 <link rel='stylesheet' href='/path/to/unzipped/files/dist/textAngular.min.css'>
 <script src='/path/to/unzipped/files/dist/textAngular-rangy.min.js'></script>
@@ -108,7 +108,7 @@ Have fun!
 
 **Important Note:** Though textAngular supports the use of all attributes in it's input, please note that angulars ng-bind-html **WILL** strip out all of your style attributes if you are using `angular-sanitize.js`.
 
-For Additional options see the [github Wiki](https://github.com/fraywing/textAngular/wiki).
+For Additional options see the [github Wiki](https://github.com/chaddoy/textAngular/wiki).
 
 ### Issues?
 
@@ -124,11 +124,11 @@ You need to include font-awesome on your page or nothing will show up.
 1. **Youtube Insert embeds a ```<img>``` tag and aren't showing the video.**<br/>
 The problems with iFrames are that they are a security risk so the sanitizer by default strips them out. Instead of changing the sanitizer to allow iFrames we use a placeholder for youtube videos which has the added advantage of allowing you to edit their size and placement in the editor. To display the youtube videos when you aren't in the editor use the following html: ```<div ta-bind ng-model="data.htmlcontent"></div>```. This invokes our custom renderers to convert the ```<img>``` tags back into the youtube video you expect.
 2. **But I want to use Youtube outside of angular**<br/>
-You'll have to apply the renderers manually, see comment in issue [#469](https://github.com/fraywing/textAngular/issues/469#issuecomment-68650506) for details.
+You'll have to apply the renderers manually, see comment in issue [#469](https://github.com/chaddoy/textAngular/issues/469#issuecomment-68650506) for details.
 3. **IE Is automatically converting typed links to `<a href...>` tags**<br/>
-This is a known issue with IE, to prevent this run the following javascript after page load: `document.execCommand("AutoUrlDetect", false, false)`. See [#475](https://github.com/fraywing/textAngular/issues/475) for details.
+This is a known issue with IE, to prevent this run the following javascript after page load: `document.execCommand("AutoUrlDetect", false, false)`. See [#475](https://github.com/chaddoy/textAngular/issues/475) for details.
 4. **Error `"textAngular Error: An editor with the name already exists"` occurs**<br/>
-See Issue [#240](https://github.com/fraywing/textAngular/issues/240) for specific details on why this occurs and how to resolve it.
+See Issue [#240](https://github.com/chaddoy/textAngular/issues/240) for specific details on why this occurs and how to resolve it.
 
 ## Developer Notes
 
@@ -158,4 +158,4 @@ This project is licensed under the [MIT license](http://opensource.org/licenses/
 
 Special thanks to all the contributions thus far!
 
-For a full list see: https://github.com/fraywing/textAngular/graphs/contributors
+For a full list see: https://github.com/chaddoy/textAngular/graphs/contributors

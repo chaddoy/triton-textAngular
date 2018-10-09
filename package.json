@@ -1,5 +1,5 @@
 {
-  "name": "textangular",
+  "name": "triton-textangular",
   "version": "1.5.16",
   "description": "A radically powerful Text-Editor/Wysiwyg editor for Angular.js",
   "maintainers": [
@@ -17,7 +17,6 @@
     "directive"
   ],
   "license": "MIT",
-  "homepage": "http://textangular.com",
   "main": "./dist/textAngular.umd.js",
   "dependencies": {
     "rangy": "^1.3.0"
@@ -61,6 +60,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/fraywing/textAngular.git"
+    "url": "git://github.com/chaddoy/textAngular.git"
   }
 }
