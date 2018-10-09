@@ -1,5 +1,5 @@
 {
-  "name": "triton-textangular",
+  "name": "triton-textAngular",
   "version": "1.5.16",
   "description": "A radically powerful Text-Editor/Wysiwyg editor for Angular.js",
   "maintainers": [
@@ -60,6 +60,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/chaddoy/textAngular.git"
+    "url": "git://github.com/chaddoy/triton-textAngular.git"
   }
 }
